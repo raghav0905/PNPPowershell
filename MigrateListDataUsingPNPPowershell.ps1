@@ -3,7 +3,7 @@
 $sourceURL = "https://xyz.sharepoint.com/sites/abc"
 $listTitle = "Issue Tracker"
 $outputTemplateFile = "C:\Temp\ListSchema.xml"
-$destnURL = "https://lntinfotech.sharepoint.com/sites/DeveloperSiteDZ/TestTrainingSite"
+$destnURL = "https://ABC.sharepoint.com/sites/DeveloperSite/TestTrainingSite"
 
 #Connect with source site
 Connect-PnPOnline -Url $sourceURL -SPOManagementShell
